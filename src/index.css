@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'BebasNeue-Regular';
+  font-weight: 900;
+  src: local('BebasNeue-Regular'),
+    url('common/assets/fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir Next Cyr';
+  src: local('Avenir Next Cyr'),
+    url('common/assets/fonts/avenirnextcyr-light.ttf') format('truetype');
+}
+
+body {
+  color: var(--color);
+}
+
+body::-webkit-scrollbar-track {
+  background: #737373;
+}
+
+/* width */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
