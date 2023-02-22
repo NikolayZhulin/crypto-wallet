@@ -31,12 +31,6 @@ type ServerResponse<D> = {
   items: D
 }
 
-type UsersListType = {
-  id: number
-  username: string
-  email: string
-}
-
 type UserType = {
   id: number
   username: string

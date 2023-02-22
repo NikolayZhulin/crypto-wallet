@@ -1,13 +1,8 @@
 import styled from 'styled-components'
 
-export const StatsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`
+import { FlexBlock } from '../../../ui'
 
-export const StatsItemContainer = styled(StatsContainer)`
+export const StatsItemContainer = styled(FlexBlock)`
   width: 200px;
 
   div {

@@ -16,19 +16,10 @@ export const MainImage = styled.div<{ top: string; right: string }>`
 
   z-index: 10;
 
-  background-image: url(${planet}), url(${ellipse1}), url(${ellipse2}), url(${ellipse3}),
-    url(${ellipse4}), url(${ellipse5});
+  background-image: url(${planet}), url(${ellipse3}), url(${ellipse2}), url(${ellipse1}),
+    url(${ellipse5}), url(${ellipse4});
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  //background-position: inherit;
-  // &:after {
-  //   content: '';
-  //
-  //   width: 526px;
-  //   height: 526px;
-  //
-  //   position: relative;
-  //   background-image: url(${ellipse5});
-  // }
+  background-size: 320px 322px, 370px, 384px, 446px, 526px, 532px;
 `

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const MainTitle = styled.h1`
+export const MainTitle = styled.div`
   margin: 0;
 
   position: relative;
@@ -13,6 +13,9 @@ export const MainTitle = styled.h1`
 `
 
 export const MainInfoContainer = styled.div`
-  width: 75%;
   position: relative;
+`
+export const BlackTitle = styled.span`
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  color: #171719;
 `

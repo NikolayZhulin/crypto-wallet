@@ -5,7 +5,11 @@ import { FlexBlock } from '../../ui'
 
 export const MainInfoBlock = () => {
   return (
-    <FlexBlock justifyContent={'space-between'} margin={'200px 0 110px 0'}>
+    <FlexBlock
+      alignItems={'flex-start'}
+      justifyContent={'space-between'}
+      margin={'200px 0 110px 0'}
+    >
       <MainInfo />
       <StatsBlock />
     </FlexBlock>

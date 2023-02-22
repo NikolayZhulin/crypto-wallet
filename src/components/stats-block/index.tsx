@@ -1,19 +1,19 @@
 import React from 'react'
 
-import { PrimaryTitle } from '../../ui'
+import { PrimaryTitle, FlexBlock } from '../../ui'
 
 import { StatsItems } from './StatsItems'
-import { StatsContainer, StatsItemContainer } from './style/style'
+import { StatsItemContainer } from './style/style'
 
 export const StatsBlock = () => {
   return (
-    <StatsContainer>
+    <FlexBlock flexDirection={'column'} margin={'20px 0 0 0'}>
       <PrimaryTitle primary={false} size={'32'}>
         ROADMAP STATS
       </PrimaryTitle>
-      <StatsItemContainer>
+      <StatsItemContainer flexDirection={'column'}>
         <StatsItems />
       </StatsItemContainer>
-    </StatsContainer>
+    </FlexBlock>
   )
 }
