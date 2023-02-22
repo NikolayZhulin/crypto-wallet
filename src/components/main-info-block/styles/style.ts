@@ -12,7 +12,7 @@ export const MainTitle = styled.div`
   font-family: 'BebasNeue-Regular', sans-serif;
 `
 
-export const MainInfoContainer = styled.div`
+export const MainSectorContainer = styled.div`
   position: relative;
 `
 export const BlackTitle = styled.span`

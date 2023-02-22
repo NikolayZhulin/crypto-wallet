@@ -1,5 +1,5 @@
 export { CustomHeader } from './header/index'
 export { MetaMaskModal } from './metamask-modal/index'
-export { MainInfo } from './main-info-block/index'
+export { MainSector } from './main-info-block/index'
 export { StatsBlock } from './stats-block/index'
 export { ErrorBar } from './error-bar/index'

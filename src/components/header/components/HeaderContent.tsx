@@ -1,9 +1,8 @@
 import React from 'react'
 
-import { PrimaryButton } from '../../ui'
-
-import { useWallet } from './hooks/use-wallet'
-import { WalletAddressTitle } from './style/style'
+import { PrimaryButton } from '../../../ui'
+import { useWallet } from '../hooks/use-wallet'
+import { WalletAddressTitle } from '../style/style'
 
 export const HeaderContent = () => {
   const { account, connectToMetamask } = useWallet()

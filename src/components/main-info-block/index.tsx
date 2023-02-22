@@ -5,11 +5,11 @@ import { Description, MainImage, PlanetPointer } from '../../ui'
 import { CircleAnimation } from '../../ui/components/Circle'
 
 import { MAIN_TITLE_FIRST } from './constants/constants'
-import { BlackTitle, MainInfoContainer, MainTitle } from './styles/style'
+import { BlackTitle, MainSectorContainer, MainTitle } from './styles/style'
 
-export const MainInfo = () => {
+export const MainSector = () => {
   return (
-    <MainInfoContainer>
+    <MainSectorContainer>
       <MainTitle>{MAIN_TITLE_FIRST}</MainTitle>
       <MainTitle>
         in
@@ -21,6 +21,6 @@ export const MainInfo = () => {
         <PlanetPointer top={'16px'} left={'217px'} />
       </MainImage>
       <Description>{DEFAULT_DESCRIPTION}</Description>
-    </MainInfoContainer>
+    </MainSectorContainer>
   )
 }

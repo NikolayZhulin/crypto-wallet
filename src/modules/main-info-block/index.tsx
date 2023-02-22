@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { MainInfo, StatsBlock } from '../../components'
+import { MainSector, StatsBlock } from '../../components'
 import { FlexBlock } from '../../ui'
 
 export const MainInfoBlock = () => {
@@ -10,7 +10,7 @@ export const MainInfoBlock = () => {
       justifyContent={'space-between'}
       margin={'200px 0 110px 0'}
     >
-      <MainInfo />
+      <MainSector />
       <StatsBlock />
     </FlexBlock>
   )
