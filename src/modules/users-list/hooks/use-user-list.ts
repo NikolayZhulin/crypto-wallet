@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 
+import { logOut } from '../../../app/app-reducer'
+import { useAppDispatch } from '../../../app/hooks'
 import { useUserInfo } from '../../../common/utils'
 import { useLazyGetUsersListQuery } from '../api/usersApi'
 import { createData } from '../helpers/create-table-data'
@@ -9,6 +11,7 @@ export const useUserList = () => {
   const { userEmail, userName, isRegistered, userId, userAddress } = useUserInfo()
   const [trigger, response] = useLazyGetUsersListQuery()
   const [rows, setRow] = useState<UserRowType[]>([])
+  const dispatch = useAppDispatch()
 
   useEffect(() => {
     if (isRegistered) {
@@ -37,6 +40,7 @@ export const useUserList = () => {
     const newRows = rows.filter(row => row.id !== userId)
 
     setRow(newRows)
+    dispatch(logOut())
   }
 
   const isLoading = response.isLoading

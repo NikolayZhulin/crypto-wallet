@@ -27,6 +27,9 @@ const slice = createSlice({
     setError: (state, action: PayloadAction<{ error: string | null }>) => {
       state.error = action.payload.error
     },
+    logOut: state => {
+      state.isRegistered = false
+    },
   },
   extraReducers: builder => {
     builder
@@ -40,4 +43,4 @@ const slice = createSlice({
 })
 
 export const appReducer = slice.reducer
-export const { setUserInfo, setUserWallet, setError } = slice.actions
+export const { setUserInfo, setUserWallet, setError, logOut } = slice.actions

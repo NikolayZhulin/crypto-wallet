@@ -11,6 +11,8 @@ export const UsersList = () => {
   const { rows, isRegistered, isLoading, userId, deleteCurrentUser } = useUserList()
 
   if (!isRegistered) {
+    console.log(2222)
+
     return <></>
   }
   if (isLoading) {

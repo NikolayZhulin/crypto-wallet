@@ -8,7 +8,7 @@ import { FormContainer } from '../style'
 import { FormField } from './FormField'
 
 export const RegistrationForm = () => {
-  const { errors, onSubmit, register, isRegistered } = useRegistration()
+  const { errors, onSubmit, register, isRegistered, userAddress } = useRegistration()
   const registeredBtnTitle = isRegistered ? 'list me to the table' : 'get early access'
 
   return (
@@ -30,7 +30,11 @@ export const RegistrationForm = () => {
           fieldName={'email'}
           register={register}
         />
-        <PrimaryButton disabled={isRegistered} title={registeredBtnTitle} onClick={onSubmit} />
+        <PrimaryButton
+          disabled={isRegistered || !userAddress}
+          title={registeredBtnTitle}
+          onClick={onSubmit}
+        />
       </form>
     </FormContainer>
   )
