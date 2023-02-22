@@ -25,6 +25,15 @@ export const StyledInputElement = styled.input`
   }
 
   &:-webkit-autofill {
-    background: ${({ theme }) => theme.colors.bg};
+    box-shadow: 0 0 0 30px #171719 inset !important;
+    -webkit-text-fill-color: #fff;
+  }
+  &:-webkit-autofill:hover {
+    box-shadow: 0 0 0 30px #171719 inset !important;
+    -webkit-text-fill-color: #fff;
+  }
+  &:-webkit-autofill:focus {
+    box-shadow: 0 0 0 30px #171719 inset !important;
+    color: white;
   }
 `
