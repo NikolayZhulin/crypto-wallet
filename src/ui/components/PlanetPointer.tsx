@@ -34,7 +34,7 @@ const PlanetPointerWrapper = styled(FlexBlock)<{ top?: string; left?: string }>`
   font-weight: 700;
 
   color: black;
-  background: #fff;
+  background: var(--white);
 
   &:after {
     content: '';
@@ -67,6 +67,6 @@ const LightPoint = styled.div`
 
     border-radius: 50%;
 
-    background: #e75626;
+    background: var(--primary);
   }
 `

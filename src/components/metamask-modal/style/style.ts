@@ -27,21 +27,21 @@ export const ModalWrapper = styled.div`
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
-  color: #e75626;
+  color: var(--primary);
   &:hover,
   &:focus {
-    color: #be3b10;
+    color: var(--primary-hover);
   }
   &:active {
-    color: #e75626;
+    color: var(--primary);
   }
 `
 
 export const LinkTextWrapper = styled.span`
-  color: #e75626;
+  color: var(--primary);
   text-decoration: none;
 
   &:hover {
-    color: #be3b10;
+    color: var(--primary-hover);
   }
 `

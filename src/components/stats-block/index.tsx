@@ -2,7 +2,7 @@ import React from 'react'
 
 import { PrimaryTitle, FlexBlock } from '../../ui'
 
-import { StatsItems } from './StatsItems'
+import { StatsItems } from './components/StatsItems'
 import { StatsItemContainer } from './style/style'
 
 export const StatsBlock = () => {

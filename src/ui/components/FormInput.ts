@@ -10,14 +10,14 @@ export const StyledInputElement = styled.input`
   color: #ffffff;
   border: 1px solid white;
   border-radius: 30px;
-  background: ${({ theme }) => theme.colors.bg};
+  background: var(--background);
   &:hover {
-    border-color: ${({ theme }) => theme.colors.primary};
+    border-color: var(--primary);
   }
 
   &:focus {
-    border-color: ${({ theme }) => theme.colors.primary};
-    outline: 1px solid ${({ theme }) => theme.colors.primary};
+    border-color: var(--primary);
+    outline: 1px solid var(--primary);
   }
 
   &:disabled {
@@ -25,15 +25,15 @@ export const StyledInputElement = styled.input`
   }
 
   &:-webkit-autofill {
-    box-shadow: 0 0 0 30px #171719 inset !important;
-    -webkit-text-fill-color: #fff;
+    box-shadow: 0 0 0 30px var(--background) inset !important;
+    -webkit-text-fill-color: var(--white);
   }
   &:-webkit-autofill:hover {
-    box-shadow: 0 0 0 30px #171719 inset !important;
-    -webkit-text-fill-color: #fff;
+    box-shadow: 0 0 0 30px var(--background) inset !important;
+    -webkit-text-fill-color: var(--white);
   }
   &:-webkit-autofill:focus {
-    box-shadow: 0 0 0 30px #171719 inset !important;
-    color: white;
+    box-shadow: 0 0 0 30px var(--background) inset !important;
+    color: var(--white);
   }
 `

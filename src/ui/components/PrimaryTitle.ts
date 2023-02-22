@@ -8,6 +8,5 @@ export const PrimaryTitle = styled.div<{ size: string; primary?: boolean }>`
   text-transform: uppercase;
   font-weight: 700;
   font-size: ${props => props.size + 'px'};
-
-  color: ${({ theme, primary = true }) => (primary ? theme.colors.primary : theme.colors.font)};
+  color: ${({ primary = true }) => (primary ? '#e75626' : '#fff')};
 `

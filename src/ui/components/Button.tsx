@@ -42,6 +42,6 @@ const Button = styled.button`
     opacity: 0.5;
   }
 
-  background: ${({ theme }) => theme.colors.primary};
-  color: ${({ theme }) => theme.colors.font};
+  background: var(--primary);
+  color: var(--white);
 `

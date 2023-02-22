@@ -8,7 +8,8 @@ This project is an example of integrating a crypto wallet into a react applicati
 -RTK Query\
 -Styled Components\
 -TS\
--useDappp
+-useDapp\
+-MUI
 
 ## Available Scripts
 

@@ -16,6 +16,6 @@ export const MainSectorContainer = styled.div`
   position: relative;
 `
 export const BlackTitle = styled.span`
-  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-shadow: -1px 0 var(--white), 0 1px var(--white), 1px 0 var(--white), 0 -1px var(--white);
   color: #171719;
 `

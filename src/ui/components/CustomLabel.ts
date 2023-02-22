@@ -7,5 +7,5 @@ export const CustomLabel = styled.label`
   font-family: BebasNeue-Regular, sans-serif;
   text-transform: uppercase;
 
-  color: ${({ theme }) => theme.colors.font};
+  color: var(--white);
 `

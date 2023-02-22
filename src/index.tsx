@@ -1,5 +1,6 @@
 import React from 'react'
 
+import './var.css'
 import './index.css'
 import { DAppProvider, Rinkeby } from '@usedapp/core'
 import { getDefaultProvider } from 'ethers'
