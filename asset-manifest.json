@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crypto-wallet/static/css/main.58defdec.css",
-    "main.js": "/crypto-wallet/static/js/main.1f2c2550.js",
+    "main.js": "/crypto-wallet/static/js/main.9db0b119.js",
     "static/js/787.343c1bd0.chunk.js": "/crypto-wallet/static/js/787.343c1bd0.chunk.js",
     "static/media/planet.png": "/crypto-wallet/static/media/planet.d04689aabb9f360f6d07.png",
     "static/media/ellipse5.png": "/crypto-wallet/static/media/ellipse5.6cfcf8fba9892362f623.png",
@@ -10,11 +10,11 @@
     "static/media/ellipse4.png": "/crypto-wallet/static/media/ellipse4.ac0066cf97620ee51834.png",
     "index.html": "/crypto-wallet/index.html",
     "main.58defdec.css.map": "/crypto-wallet/static/css/main.58defdec.css.map",
-    "main.1f2c2550.js.map": "/crypto-wallet/static/js/main.1f2c2550.js.map",
+    "main.9db0b119.js.map": "/crypto-wallet/static/js/main.9db0b119.js.map",
     "787.343c1bd0.chunk.js.map": "/crypto-wallet/static/js/787.343c1bd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58defdec.css",
-    "static/js/main.1f2c2550.js"
+    "static/js/main.9db0b119.js"
   ]
 }
