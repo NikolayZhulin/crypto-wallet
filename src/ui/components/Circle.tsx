@@ -40,7 +40,7 @@ const CircleWrapperRight = styled.div`
     right: 256px;
 
     border-radius: 50%;
-    background: var(--background);
+    background: var(--primary);
   }
   &:after {
     content: '';
@@ -54,7 +54,7 @@ const CircleWrapperRight = styled.div`
     right: 28px;
 
     border-radius: 50%;
-    background: var(--background);
+    background: var(--primary);
   }
 `
 
