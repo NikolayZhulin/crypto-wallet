@@ -9,7 +9,7 @@ type Props = {
 
 export const StatsItem = ({ count, description }: Props) => {
   return (
-    <StatsItemContainer>
+    <StatsItemContainer flexDirection={'column'}>
       <StatsCount>{count}</StatsCount>
       <StatsDescription>{description}</StatsDescription>
     </StatsItemContainer>
