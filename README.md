@@ -16,7 +16,7 @@ This project is an example of integrating a crypto wallet into a react applicati
 <image src="https://ltdfoto.ru/images/2023/03/10/SNIMOK-EKRANA-2023-03-10-121746.png" alt="Main page"/>
 <image src="https://ltdfoto.ru/images/2023/03/10/SNIMOK-EKRANA-2023-03-10-121846.png" alt="Main page"/>
 <image src="https://ltdfoto.ru/images/2023/03/10/SNIMOK-EKRANA-2023-03-10-121914.png" alt="Main page"/>
-<image src="https://ltdfoto.ru/images/2023/03/10/SNIMOK-EKRANA-2023-03-10-121927.md.png" alt="Main page"/>
+<image src="https://ltdfoto.ru/images/2023/03/10/SNIMOK-EKRANA-2023-03-10-121927.png" alt="Main page"/>
 
 ## Available Scripts
 
