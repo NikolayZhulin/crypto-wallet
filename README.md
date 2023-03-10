@@ -1,15 +1,22 @@
-# About project:
+# Crypto-wallet info:
 
-This project is an example of integrating a crypto wallet into a react application.
+This project is an example of integrating a crypto wallet into a react application. You can connect a metamask wallet and register, then see yourself in the list of users
 
 # Stack:
 
--React\
--RTK Query\
--Styled Components\
--TS\
--useDapp\
--MUI
+- TypeScript
+- React
+- RTK
+- RTK Query
+- useDapp
+- React hook form
+- styled-components
+- MUI
+
+<image src="https://ltdfoto.ru/images/2023/03/10/SNIMOK-EKRANA-2023-03-10-121746.png" alt="Main page"/>
+<image src="https://ltdfoto.ru/images/2023/03/10/SNIMOK-EKRANA-2023-03-10-121846.png" alt="Main page"/>
+<image src="https://ltdfoto.ru/images/2023/03/10/SNIMOK-EKRANA-2023-03-10-121914.png" alt="Main page"/>
+<image src="https://ltdfoto.ru/images/2023/03/10/SNIMOK-EKRANA-2023-03-10-121927.md.png" alt="Main page"/>
 
 ## Available Scripts
 
